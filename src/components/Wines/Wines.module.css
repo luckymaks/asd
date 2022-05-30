@@ -1,0 +1,121 @@
+.section {
+  padding: 32px 160px 24px 160px;
+  z-index: 1;
+  background-image: linear-gradient(
+    119deg,
+    rgba(61, 43, 86, 0.03),
+    rgba(61, 43, 86, 0.06)
+  );
+  box-sizing: border-box;
+  min-height: 100%;
+  width: auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: "Vinify Font", sans-serif;
+  font-size: 38px;
+  line-height: 44px;
+  color: #232020;
+}
+
+.title_text {
+  text-align: start;
+  font-size: 20px;
+  line-height: 30px;
+  width: 800px;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+.img {
+  width: 24px;
+  height: 36px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  margin: 0px;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 57px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 14px 4px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 0px 3px;
+  background-color: #ffffff;
+}
+
+.label {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #232020;
+  font-size: 20px;
+  margin-right: 930px;
+}
+
+.input {
+  min-width: 20em;
+  margin-bottom: 0px;
+  margin-left: 2em;
+  padding-right: 1.75em;
+  padding-left: 1.75em;
+  border: 1px none #000;
+  border-radius: 2.4em;
+  background-color: #fff;
+  color: #5c5c5c;
+  outline: none;
+}
+
+.button_refresh {
+  padding: 9px 15px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-right: 30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.button_plus {
+  font-family: "Vinify Font", sans-serif;
+  color: #2c6a67;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 2em;
+  padding: 9px 20px;
+  cursor: pointer;
+}
+
+.button_sort {
+  background-image: url("../../images/sorting.svg");
+  width: 80px;
+  height: 50px;
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.div_filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 1600px;
+}

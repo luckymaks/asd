@@ -1,0 +1,86 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal {
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+  width: 484px;
+  height: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3d2b56;
+}
+
+.button {
+  width: 175px;
+  height: 45px;
+  background: #009ee2;
+  border-radius: 6px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: 0px;
+  cursor: pointer;
+}
+
+.exit_button {
+  padding: 3px 7px;
+  border: 0px;
+  color: #ffffff;
+  align-self: flex-end;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #009ee2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.img {
+  width: 30px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.input {
+  border: 0px;
+  border-radius: 10px;
+  height: 25px;
+  padding: 2px 5px;
+  outline: none;
+}
